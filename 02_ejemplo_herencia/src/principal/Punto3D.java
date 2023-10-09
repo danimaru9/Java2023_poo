@@ -17,7 +17,7 @@ public class Punto3D extends Punto {
 	}
 	@Override
 	public void dibujar() {
-		super.dibujar();
+		System.out.println(","+getZ());
 	}
 	
 	
