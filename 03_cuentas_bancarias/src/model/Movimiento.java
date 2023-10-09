@@ -1,15 +1,15 @@
 package model;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Movimiento {
 	private double cantidad;
-	private LocalDate fecha;
+	private LocalDateTime fecha;
 	private String tipo;
-	public Movimiento(double cantidad, LocalDate fecha, String tipo) {
+	public Movimiento(double cantidad, LocalDateTime localDateTime, String tipo) {
 		super();
 		this.cantidad = cantidad;
-		this.fecha = fecha;
+		this.fecha = localDateTime;
 		this.tipo = tipo;
 	}
 	public double getCantidad() {
@@ -18,10 +18,10 @@ public class Movimiento {
 	public void setCantidad(double cantidad) {
 		this.cantidad = cantidad;
 	}
-	public LocalDate getFecha() {
+	public LocalDateTime getFecha() {
 		return fecha;
 	}
-	public void setFecha(LocalDate fecha) {
+	public void setFecha(LocalDateTime fecha) {
 		this.fecha = fecha;
 	}
 	public String getTipo() {
