@@ -16,5 +16,6 @@ public abstract class Figura {
 		this.color = color;
 	}
 	
+	
 	public abstract double superficie();
 }

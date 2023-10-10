@@ -15,4 +15,5 @@ public class Triangulo extends Figura {
 		return base*altura/2;
 	}
 
+	
 }

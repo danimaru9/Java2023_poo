@@ -12,7 +12,9 @@ public class Circulo extends Figura {
 	@Override
 	public double superficie() {
 		// TODO Auto-generated method stub
-		return Math.PI*radio*radio;
+		return Math.PI*Math.pow(radio, 2);
 	}
 
+
+	
 }
